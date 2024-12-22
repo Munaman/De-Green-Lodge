@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    color: #ff6600 !important;
+  }
+
+  header {
+    background: url('img/1734706908724.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: #0202021f;
+    background-blend-mode:color;
+  }
+  
+  .nav-link.active, .nav-link:hover {
+    color: #ff6600 !important;
+  }
+  .bg-orange{
+    background-color: #ff6600;
+  }
+  .btn-orange {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-orange:hover {
+    background-color: #cc5200;
+  }
+  .btn-outline-orange {
+    background-color: white;
+    border: 2px solid #ff6600;
+    color: #ff6600
+  }
+  .btn-outline-orange:hover {
+    background-color: #ff6600;
+    color: white;
+  }
+  @keyframes beat {
+    0%{transform: scale(1);}
+    100% {transform: scale(1.09);}
+  }
+
+  nav .btn {
+    animation: beat 1s infinite;
+    /* transition: animation 0.5s ease-in; */
+  }
+  
+  h1, h2 {
+    color: #ff6600;
+  }
+  
+/*Gallery Section*/
+  .gallery-item{
+    position: relative;
+  }
+  .gallery-item p{
+    position: absolute;
+    display: none;
+    top: 45%;
+    left: 35%;
+    /* transform: translate(-50%, -50%); */
+  }
+  .gallery-item:hover p{
+    display: flex;
+  }
+  .gallery-item img {
+    width: 100%;
+  }
+  .gallery-item:hover img {
+    /* opacity: 0.5; */
+    transform: scale(1.03);
+  }
+  /*Modal Styling*/
+  #modalImage {
+    object-fit: contain;
+}
+
+  /*Testimonials*/
+  /* Testimonials Section */
+#testimonials {
+  background-color: #f8f9fa; /* Optional */
+  padding: 2rem 0;
+}
+
+.wrapper {
+  overflow: hidden; /* Show only three cards at a time */
+  max-width: 100%; /* Ensures responsive design */
+}
+
+.testimonial-container {
+  display: flex;
+  gap: 20px; /* Space between cards */
+  transition: transform 0.5s ease-in-out; /* Smooth carousel effect */
+}
+
+.testimonial-card {
+  flex: 0 0 calc((100% - 40px) / 3); /* Dynamically calculates width for 3 cards with spacing */
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+}
+.testimonial-card:hover {
+  transform: scale(1.07);
+}
+
+.testimonial-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  /* border: 1px solid #ddd; */
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  margin-bottom: 15px;
+}
+
+.contact-card-icon {
+  font-size: 2rem;
+  color: #ff6600;
+  margin-right: 15px;
+}
+
+.contact-card-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+  footer p {
+    border-top: 2px solid #ff6600;
+    padding-top: 10px;
+    color: #ff6600;
+  }
+  

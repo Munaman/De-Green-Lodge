@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De Green Lodge</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">De Green Lodge</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <button class="btn btn-orange ms-2">CATERING</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="text-light text-center py-5 py-md-4">
+    <div class="container" style="margin-top: 30vh;" data-aos="fade-up" data-aos-duration="1000">
+      <h1 class="display-1">Welcome to De Green Lodge</h1>
+      <p class="lead fw-bold">Your comfort, our priority.</p>
+      <a href="#rooms" class="btn btn-orange">Book Your Stay</a>
+    </div>
+  </header>
+
+<!--About Section-->
+  <section class="about bg-white">
+    <div class="container py-5 px-2 d-flex flex-row gap-1 gap-md-5 justify-content-center">
+      <div class="text-center  col-md-12  p-2 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="text-center">About Us</h2>
+        <p class="fs-5">Welcome to De Green Lodge, your haven for comfort and tranquility. Located in a serene environment, our lodge combines modern amenities with warm hospitality to create an unforgettable experience.
+
+          Each room is thoughtfully designed for relaxation, while our attentive staff ensures your every need is met. Enjoy delicious cuisine, convenient access to local attractions, and eco-friendly practices that reflect our commitment to sustainability.
+          
+          At De Green Lodge, we go beyond offering a stay—we create a memorable escape. Join us for a perfect blend of elegance, comfort, and exceptional service.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Gallery</h2>
+      <div class="row g-3" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908735.jpg" class="img-fluid" alt="Room 1" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 1</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908744.jpg" class="img-fluid" alt="Room 2" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 2</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908754.jpg" class="img-fluid" alt="Room 3" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)"> 
+            <!-- <p class="fs-3 fw-bold">Room 3</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908762.jpg" class="img-fluid" alt="Room 4" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 4</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908770.jpg" class="img-fluid" alt="Room 5" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 5</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908783.jpg" class="img-fluid" alt="Room 6" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 6</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908794.jpg" class="img-fluid" alt="Room 7"data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 7</p> -->
+        </div>
+        <div class="col-md-4 col-6 gallery-item" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="img/1734706908809.jpg" class="img-fluid" alt="Room 8"data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showModal(this)">
+            <!-- <p class="fs-3 fw-bold">Room 8</p> -->
+        </div>
+    </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <img id="modalImage" src="" alt="Modal View" class="img-fluid">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+  </section>
+
+  <!--Romms Section-->
+  <section class="py-5" id="rooms">
+    <div class="container">
+      <h2 class="text-center">Book Your Stay</h2>
+
+      <div class="row">
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$8/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange mt-auto">Book Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="card pricing-card my-3 ">
+            <div class="card-header bg-orange text-white text-center">
+                Basic
+            </div>
+            <div class="card-body d-flex flex-column justify-content-between align-items-center">
+                <h3 class="text-center">$9/week</h3>
+                <p class="text-center">Includes basic features.</p>
+                <ul class="list-unstyled d-flex flex-column gap-2 fs-5">
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                      <i class="bi bi-check-circle-fill text-success"></i> <li>Feature 1</li> 
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 2</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 3</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 4</li>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center gap-2">
+                        <i class="bi bi-x-circle-fill text-danger"></i><li>Feature 5</li>
+                    </div>
+                </ul>
+                <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange">Book Now</a>
+                <!-- <a href="https://wa.me/2349160787260?text=Hello%20De%20Green%20Lodge,%20I%20would%20like%20to%20book%20a%20room.%20Can%20you%20provide%20me%20with%20more%20details?" target="_blank" class="btn btn-outline-orange disabled">Occupied</a> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5 bg-light">
+    <h1 class="text-center ">Testimonials</h1>
+    <p class="text-center lead">What our customers say about Us</p>
+    <div class="container "> <!-- Bootstrap container for fixed width -->
+      <div class="wrapper">
+        <div class="testimonial-container">
+          <div class="testimonial-card">
+            <img src="https://via.placeholder.com/100" alt="Jane Doe" class="testimonial-img">
+            <p>"Fantastic experience! The staff was very welcoming."</p>
+            <h5>- Jane Doe</h5>
+          </div>
+          <div class="testimonial-card">
+            <img src="https://via.placeholder.com/100" alt="John Smith" class="testimonial-img">
+            <p>"I loved every moment. The rooms were clean and cozy."</p>
+            <h5>- John Smith</h5>
+          </div>
+          <div class="testimonial-card">
+            <img src="https://via.placeholder.com/100" alt="Maria Johnson" class="testimonial-img">
+            <p>"Great location and beautiful interiors."</p>
+            <h5>- Maria Johnson</h5>
+          </div>
+          <div class="testimonial-card">
+            <img src="https://via.placeholder.com/100" alt="Alice Brown" class="testimonial-img">
+            <p>"Perfect for a weekend getaway. Highly recommend!"</p>
+            <h5>- Alice Brown</h5>
+          </div>
+          <div class="testimonial-card">
+            <img src="https://via.placeholder.com/100" alt="Mark Davis" class="testimonial-img">
+            <p>"The food was outstanding! Can't wait to visit again."</p>
+            <h5>- Mark Davis</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--Partnership Section-->
+  <section class="py-5">
+    <h2 class="fst-italic ms-5" data-aos="fade-right" data-aos-duration="1000">In Partnership with:</h2>
+    <div class="container p-3 mt-5 shadow" data-aos="fade-up" data-aos-duration="1000">
+      <h2 class="text-center fw-bold">Donik Green Logistics </h2>
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <div class="row">
+        <!-- <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-orange">Send Message</button>
+          </form>
+        </div> -->
+
+        <div class="col-md-4" style="box-shadow: 0 0 10 10 white;">
+            <div class="contact-card text-white" style="background-color: inherit;">
+              <i class="contact-card-icon bi bi-whatsapp fs-2"></i>
+              <div>
+                  <div class="contact-card-header fs-4">Chat with us on Whatsapp:</div>
+                  <div class="text-white fs-5"><a href="https://wa.me/2348030872266" class="text-decoration-none text-white">+234 8030872266</a></div>
+              </div>
+            </div>
+          <div class="contact-card text-white" style="background-color: inherit;">
+              <i class="contact-card-icon bi bi-telephone fs-2"></i>
+              <div>
+                  <div class="contact-card-header fs-4">Call:</div>
+                  <div class="text-white fs-5">+234 8077261445</div>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="mt-4 text-center">
+          <p>De Green Lodge, Port Harcourt, Rivers State, Nigeria</p>
+          <iframe src="https://www.google.com/maps/embed" class="w-25" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+      </div>
+      
+      
+    </div>
+  </section>
+
+  <footer class="text-center py-3 bg-black text-light">
+    <p>&copy; 2024 De Green Lodge. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+    });
+
+    //Testimonial Carousel
+document.addEventListener("DOMContentLoaded", function () {
+  const container = document.querySelector(".testimonial-container");
+  const cards = document.querySelectorAll(".testimonial-card");
+  const wrapper = document.querySelector(".wrapper");
+
+  let currentIndex = 0;
+  let cardWidth;
+
+  function updateCardWidth() {
+    cardWidth = wrapper.offsetWidth / (window.innerWidth < 768 ? 1 : 3); // 1 card for small screens, 3 for larger screens
+    container.style.width = `${cards.length * cardWidth}px`; // Update container width
+    cards.forEach(card => (card.style.flex = `0 0 ${cardWidth}px`)); // Update each card's width
+  }
+
+  updateCardWidth();
+  window.addEventListener("resize", updateCardWidth);
+
+  setInterval(() => {
+    currentIndex++;
+    container.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+
+    if (currentIndex >= cards.length - (window.innerWidth < 768 ? 1 : 3)) {
+      setTimeout(() => {
+        container.style.transition = "none";
+        container.style.transform = "translateX(0)";
+        currentIndex = 0;
+      }, 500); // Reset after last card
+    } else {
+      container.style.transition = "transform 0.5s ease-in-out";
+    }
+  }, 3000); // Every 3 seconds
+});
+
+//Gallery Modal Functionality
+function showModal(element) {
+        const modalImage = document.getElementById("modalImage");
+        modalImage.src = element.src;
+        modalImage.alt = element.alt;
+      }
+
+  </script>
+</body>
+</html>
